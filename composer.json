@@ -1,0 +1,19 @@
+{
+    "name": "lewisshaw/slim-phpdi",
+    "authors": [
+        {
+            "name": "Lewis Shaw",
+            "email": "lshaw45@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.5",
+        "laminas/laminas-diactoros": "^2.4",
+        "php-di/php-di": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
